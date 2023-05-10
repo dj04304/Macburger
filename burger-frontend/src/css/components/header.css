@@ -1,8 +1,16 @@
 .header {
+  position: fixed;
+  z-index: 999;
+  background-color: #fff;
+
+  width: 100%;
+
   box-shadow: 0 0.3em 0.3em -0.3em black;
 }
 
 .header-container {
+  position: relative;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,7 +33,7 @@
   width: 50em;
 }
 
-.nav-bar li {
+.header-link {
   font-size: 1.7em;
   font-weight: 700;
 
@@ -74,4 +82,43 @@ button {
 }
 .header-signup {
   background-color: #ffc423;
+}
+
+/* --------------------- header dropdown ---------------------*/
+/* --------------------- header dropdown ---------------------*/
+/* --------------------- header dropdown ---------------------*/
+
+.header-dropdown {
+  position: fixed;
+
+  top: 10em;
+
+  width: 100%;
+  height: 18.75em;
+  background-color: #fff;
+  z-index: 999;
+  box-shadow: 0 0.3em 0.3em -0.3em black;
+}
+
+.header-dropdown-container {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0px 43.5em;
+
+  width: 46.5em;
+  height: 17em;
+}
+
+.header-dropdown-submenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.submenu-link {
+  font-size: 2.2em;
+  font-weight: 700;
+  font-family: 'Dongle', sans-serif;
+  cursor: pointer;
 }

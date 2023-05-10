@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Poor+Story&family=Single+Day&display=swap');
 
 * {
   box-sizing: border-box;
@@ -29,9 +29,18 @@ body {
   height: 100%;
   background-color: #fff;
 }
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+.main-content {
+  padding-top: 10em;
+
+  min-height: calc(100% - 100px);
+}
 
 body {
-  min-height: 100vh;
 }
 
 button {
